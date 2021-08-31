@@ -1,0 +1,90 @@
+body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* product Calculation */
+
+.productCal {
+    width: 95%;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.116);
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.priceInputDiv {
+    display: flex;
+    justify-content: left;
+}
+
+.priceInputDiv label {
+    width: 40%;
+    font-size: 1.2rem;
+}
+
+.priceInput {
+    width: 40%;
+    height: 20px;
+    margin: 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.cal1,
+.cal2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 5px 0;
+    width: 99%;
+}
+
+.cal2 {
+    justify-content: space-around;
+}
+
+.cal1 input,
+.cal2 input {
+    width: 35%;
+    height: 20px;
+    margin: 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.cal2 input {
+    width: 20%;
+}
+
+.cal1 button,
+.cal2 button {
+    width: 14%;
+    height: 25px;
+    margin: 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.cal1 p,
+.cal2 p {
+    background-color: white;
+    color: black;
+    width: 35%;
+    height: 23px;
+    margin: 0;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cal2 p {
+    width: 25%;
+}
