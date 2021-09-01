@@ -1,5 +1,5 @@
 body {
-overflow:hidden;
+    overflow:hidden;
     background: #0F2027;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);
@@ -38,7 +38,9 @@ overflow:hidden;
     border-radius: 5px;
     font-size: 1.2rem;
 }
-
+.priceInput:focus {
+    font-size: 1.2rem;
+}
 .cal1,
 .cal2 {
     display: flex;
