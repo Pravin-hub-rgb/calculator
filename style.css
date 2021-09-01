@@ -1,4 +1,5 @@
 body {
+overflow:hidden;
     background: #0F2027;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);
